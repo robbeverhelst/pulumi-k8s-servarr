@@ -1,0 +1,56 @@
+{
+  "prowlarrSync": true,
+  "rootFolders": [
+    {
+      "path": "/media/movies",
+      "accessible": true
+    }
+  ],
+  "qualityProfiles": [
+    {
+      "name": "1080p",
+      "cutoff": 1080,
+      "items": [
+        {
+          "quality": {
+            "id": 1,
+            "name": "Bluray-1080p"
+          },
+          "allowed": true
+        },
+        {
+          "quality": {
+            "id": 2,
+            "name": "WEBDL-1080p"
+          },
+          "allowed": true
+        }
+      ]
+    }
+  ],
+  "downloadClients": [
+    {
+      "name": "qBittorrent",
+      "implementation": "QBittorrent",
+      "implementationName": "qBittorrent",
+      "configContract": "QBittorrentSettings",
+      "fields": [
+        {
+          "name": "host",
+          "value": "qbittorrent"
+        },
+        {
+          "name": "port",
+          "value": 8080
+        },
+        {
+          "name": "category",
+          "value": "radarr"
+        }
+      ],
+      "enable": true,
+      "priority": 1
+    }
+  ],
+  "applications": []
+}

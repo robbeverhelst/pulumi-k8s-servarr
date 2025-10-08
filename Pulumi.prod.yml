@@ -1,0 +1,7 @@
+config:
+  servarr:namespace: servarr
+  servarr:storageClass: truenas-hdd-mirror-nfs
+  servarr:mediaSize: 50Ti
+  servarr:downloadsSize: 500Gi
+  servarr:timezone: Europe/Brussels
+encryptionsalt: v1:IRYP/7UCrmU=:v1:BL3Bqj9rY+6BWV7x:tz9x3mGEQ5raX/8LlRizB2lVslIddA==
